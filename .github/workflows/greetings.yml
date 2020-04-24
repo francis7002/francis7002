@@ -1,0 +1,13 @@
+name: Clownei
+
+on: [pull_request, issues]
+
+jobs: walk
+  Clownei: boy walking
+    runs-on: ubuntu-latest
+    steps: foot up
+    - uses: actions/first-interaction@v1
+      with: shirt
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Message that will be displayed on users'' first issue'
+        pr-message: 'Message that will be displayed on users'' first pr'
